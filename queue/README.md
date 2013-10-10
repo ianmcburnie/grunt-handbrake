@@ -1,0 +1,1 @@
+Place your MTS source video files in this folder, then run grunt!
