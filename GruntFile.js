@@ -7,7 +7,7 @@ module.exports = function(grunt) {
                     cwd: "queue/",
                     dest: "queue/",             
                     ext: ".m4v",
-                    src: ["*.MTS"]
+                    src: ["**/*.MTS"]
                 }]
             }
         }
