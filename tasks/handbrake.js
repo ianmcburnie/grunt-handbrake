@@ -27,11 +27,7 @@ module.exports = function(grunt) {
                 processQueue(queue, callback, errors);
             });
 
-            spawn.on("output", console.log);
-
-            spawn.on("progress", function onSpawnProgress(progress) {
-                console.log(progress.task + ": " + progress.percentComplete);
-            });
+            spawn.on("output", process.stdout.write.bind(process.stdout));
             
             spawn.on("complete", function onSpawnComplete() { 
                 var inputStats = fs.statSync(options.input);
