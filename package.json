@@ -6,7 +6,7 @@
   "description": "Grunt plugin for converting video with HandbrakeCLI",
   "dependencies": {
     "grunt": "~0.4.0",
-    "handbrake-js": "~0.1.5"
+    "handbrake-js": "^1.1"
   },
   "engines": {
     "node": ">= 0.8.0"
