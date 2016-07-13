@@ -16,3 +16,6 @@ node_modules
 
 *.MTS
 *.M4V
+*.MP4
+
+queue

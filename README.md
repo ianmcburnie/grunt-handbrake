@@ -11,7 +11,7 @@ Dependencies
 ------------
 *   [Node.js](http://nodejs.org/) Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.
 *   [Grunt](http://gruntjs.com) The JavaScript Task Runner
-*   [Handbrake-js](https://npmjs.org/package/handbrake-js) A cross-platform npm distribution for HandbrakeCLI (v0.9.9) designed for command line or library use.
+*   [Handbrake-js](https://npmjs.org/package/handbrake-js) A cross-platform npm distribution for HandbrakeCLI designed for command line or library use.
 *   [HandbrakeCLI](https://trac.handbrake.fr/wiki/CLIGuide) Command line binary (can be installed with handbrake-js)
 
 Instructions
