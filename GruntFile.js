@@ -1,12 +1,12 @@
 module.exports = function(grunt) {
-    grunt.initConfig({      
+    grunt.initConfig({
         "handbrake": {
             "default": {
                 files: [{
                     expand: true,
                     cwd: "queue/",
-                    dest: "queue/",             
-                    ext: ".m4v",
+                    dest: "queue/",
+                    ext: ".MP4",
                     src: ["**/*.MTS"]
                 }]
             }
